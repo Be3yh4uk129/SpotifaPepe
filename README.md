@@ -3,7 +3,7 @@
 ## Live Links
 - Backend API: https://spotifapepe.onrender.com
 - Health check: https://spotifapepe.onrender.com/health
-- Frontend: <PUT_NETLIFY_URL_HERE>
+- Frontend: https://mellow-platypus-9a9a7d.netlify.app/login.html
 
 ## Features
 - JWT Authentication (register/login)
@@ -19,7 +19,6 @@
 - Frontend: HTML/CSS/JS
 
 ## Environment Variables (Backend)
-Create `backend/.env` locally (DO NOT commit it):
 ```env
 PORT=5000
 MONGO_URI=mongodb+srv://USER:PASSWORD@cluster.mongodb.net/musicDB?retryWrites=true&w=majority
