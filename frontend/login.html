@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Login | Music Playlist</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="nav" class="nav"></div>
+
+  <div class="container">
+    <div class="card">
+      <h2 style="margin:0 0 6px 0;">Auth</h2>
+      <div class="small">Register or login to manage playlists.</div>
+      <hr/>
+
+      <div class="two">
+        <div class="card" style="margin:0;">
+          <div class="title">Register</div>
+          <div class="row">
+            <input id="regName" placeholder="name" />
+            <input id="regEmail" placeholder="email" />
+            <input id="regPass" placeholder="password" type="password" />
+            <button id="btnRegister">Register</button>
+          </div>
+        </div>
+
+        <div class="card" style="margin:0;">
+          <div class="title">Login</div>
+          <div class="row">
+            <input id="logEmail" placeholder="email" />
+            <input id="logPass" placeholder="password" type="password" />
+            <button id="btnLogin">Login</button>
+            <button id="btnMe">Me</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="toast" id="out"></div>
+      <pre id="json" style="display:none;"></pre>
+    </div>
+  </div>
+
+  <script type="module" src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Playlists | Music Playlist</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="nav" class="nav"></div>
+
+  <div class="container">
+    <div class="card">
+      <h2 style="margin:0 0 6px 0;">Playlists</h2>
+      <div class="small">Create playlists and manage songs inside.</div>
+      <hr/>
+      <div class="row">
+        <input id="plTitle" placeholder="new playlist title" />
+        <button id="btnCreate">Create</button>
+        <button id="btnRefresh">Refresh</button>
+      </div>
+      <div class="toast" id="msg"></div>
+    </div>
+
+    <div class="grid" id="pls"></div>
+
+    <div class="card">
+      <div class="title">Open playlist</div>
+      <div class="row">
+        <input id="openId" placeholder="playlistId" />
+        <button id="btnOpen">Open</button>
+      </div>
+      <div id="openView"></div>
+    </div>
+  </div>
+
+  <script type="module" src="js/playlists.js"></script>
+</body>
+</html>

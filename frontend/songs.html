@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Songs | Music Playlist</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="nav" class="nav"></div>
+
+  <div class="container">
+    <div class="card">
+      <h2 style="margin:0 0 6px 0;">Songs</h2>
+      <div class="small">Search songs from your DB. Enrich pulls cover/preview from iTunes and saves it.</div>
+      <hr/>
+      <div class="row">
+        <input id="q" placeholder="search by title..." />
+        <button id="btnSearch">Search</button>
+        <button id="btnAll">Load latest</button>
+      </div>
+      <div class="toast" id="msg"></div>
+    </div>
+
+    <div class="grid" id="list"></div>
+  </div>
+
+  <script type="module" src="js/songs.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Admin | Music Playlist</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="nav" class="nav"></div>
+
+  <div class="container">
+    <div class="card">
+      <h2 style="margin:0 0 6px 0;">Admin</h2>
+      <div class="small">Create artists, albums, and songs in your database.</div>
+      <hr/>
+
+      <div class="card" style="margin:0;">
+        <div class="title">Create Artist</div>
+        <div class="row">
+          <input id="artistName" placeholder="artist name (e.g. lil peep)" />
+          <button id="btnArtist">Create</button>
+        </div>
+      </div>
+
+      <div style="height:12px"></div>
+
+      <div class="card" style="margin:0;">
+        <div class="title">Create Album</div>
+        <div class="row">
+          <input id="albumTitle" placeholder="album title" />
+          <input id="albumArtistId" placeholder="artistId" />
+          <input id="albumYear" placeholder="year (optional)" />
+          <button id="btnAlbum">Create</button>
+        </div>
+      </div>
+
+      <div style="height:12px"></div>
+
+      <div class="card" style="margin:0;">
+        <div class="title">Create Song</div>
+        <div class="row">
+          <input id="songTitle" placeholder="song title" />
+          <input id="songArtistId" placeholder="artistId" />
+          <input id="songAlbumId" placeholder="albumId (optional)" />
+          <button id="btnSong">Create</button>
+        </div>
+      </div>
+
+      <div class="toast" id="msg"></div>
+      <pre id="json"></pre>
+    </div>
+  </div>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
