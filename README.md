@@ -25,3 +25,13 @@ MONGO_URI=mongodb+srv://USER:PASSWORD@cluster.mongodb.net/musicDB?retryWrites=tr
 JWT_SECRET=your_long_secret
 CLIENT_ORIGIN=http://localhost:5500
 NODE_ENV=development
+
+## Screenshots (API Verification)
+### Register
+![Register](/screenshots/screen1.jpg)
+
+### Login
+![Login](/screenshots/screen2.jpg)
+
+### Protected /me
+![Me](/screenshots/screen3.jpg)
