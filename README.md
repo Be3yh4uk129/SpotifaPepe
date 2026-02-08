@@ -18,14 +18,6 @@
 - Joi validation
 - Frontend: HTML/CSS/JS
 
-## Environment Variables (Backend)
-```env
-PORT=5000
-MONGO_URI=mongodb+srv://USER:PASSWORD@cluster.mongodb.net/musicDB?retryWrites=true&w=majority
-JWT_SECRET=your_long_secret
-CLIENT_ORIGIN=http://localhost:5500
-NODE_ENV=development
-
 ## Screenshots (API Verification)
 ### Register
 ![Register](/screenshots/screen1.jpg)
@@ -35,3 +27,11 @@ NODE_ENV=development
 
 ### Protected /me
 ![Me](/screenshots/screen3.jpg)
+
+## Environment Variables (Backend)
+```env
+PORT=5000
+MONGO_URI=mongodb+srv://USER:PASSWORD@cluster.mongodb.net/musicDB?retryWrites=true&w=majority
+JWT_SECRET=your_long_secret
+CLIENT_ORIGIN=http://localhost:5500
+NODE_ENV=development
