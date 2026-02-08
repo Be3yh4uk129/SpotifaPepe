@@ -1,5 +1,5 @@
 // === CONFIG ===
-export const API = "http://localhost:5000";
+export const API = "https://spotifapepe.onrender.com";
 
 // === TOKEN ===
 export function getToken() {
